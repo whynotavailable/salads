@@ -3,3 +3,4 @@
 - Reusable components go in the components folder. The app folder is dedicated for routing based components.
 - The SQL dialect is postgres 18
 - All mutating actions in SQL should be implemented as procedures instead of functions.
+- All currency fields should be represented as a `NUMERIC(10, 2)`
